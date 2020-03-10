@@ -1,0 +1,35 @@
+.button{
+	display: inline-block;
+	
+	font-size: 16px;
+	font-weight: 700;	
+	color: #FFF;	
+
+	padding: 11px 26px  14px;
+	background-color: @blueHeading;	
+	border-radius: 60px;
+	
+	box-shadow:0px 0px 19px 0px rgba(72, 119, 159,1);
+	-webkit-transition: all 0.3s ease-in;
+	   -moz-transition: all 0.3s ease-in;
+	    -ms-transition: all 0.3s ease-in;
+	     -o-transition: all 0.3s ease-in;
+	        transition: all 0.3s ease-in;
+	
+		&:hover{
+			background-color: #FFF;
+			color: @blueHeading;
+			text-decoration: none;
+		}
+		&:active, &:focus{
+			background-color: @blueHeading;
+			color: @yellow;
+			text-decoration: none;
+		}
+	
+	.fa{
+		margin-right: 9px;
+		font-size: 18px;
+		/* color: #FFF; */
+	}
+}
