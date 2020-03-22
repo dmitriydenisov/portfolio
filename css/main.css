@@ -233,7 +233,7 @@ a.mouse_scroll {
 }
 @media screen and (max-width: 820px) {
   a.mouse_scroll {
-    bottom: 2rem;
+    bottom: 10rem;
     height: 50px;
   }
 }
